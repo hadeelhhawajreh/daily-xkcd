@@ -3,7 +3,6 @@ function About(props){
         <>
         <small> {props.txt} </small>
         </>
-
     )
 
 

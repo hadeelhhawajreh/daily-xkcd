@@ -5,6 +5,7 @@ export default function Header(){
 
     return(
       <>
+
      <Link href='/'>
             <a className={styles.links} >Home </a>
           </Link>
@@ -12,6 +13,7 @@ export default function Header(){
           <Link href='about'>
             <a className={styles.links}>About </a>
           </Link>
+          <h1>XKCD</h1>
       </>
     );
   

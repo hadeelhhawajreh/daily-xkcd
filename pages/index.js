@@ -6,8 +6,8 @@ export default function Home(props) {
   
   return (
     <>
-
         <Header/>
+    <h1>XKCD</h1>
      
       <h3>{props.xkcd.safe_title}</h3>
       <img src={props.xkcd.img}/>
@@ -36,7 +36,10 @@ function Header(){
 }
 
 function Randomizer(props){
-  var ran = [2413,2412,2411,2410,2409,2408,2407,2406,2405,2404]
+
+//   var ran = [2000,2001,2002,2003,2004,2005,2006,2007,2008,2009]
+  var ran=[    2415,2414,2413,2412,2411,2410,2409,2408,2407,2406
+  ]
   
   return(
     <>
