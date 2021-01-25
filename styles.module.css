@@ -1,7 +1,9 @@
 .hello {
     font: 15px Helvetica, Arial, sans-serif;
     background: #eee;
-    padding: 100px;
+    padding: 10%;
+    margin-left:500px;
+    /* margin-right: 50%; */
     text-align: center;
     transition: 100ms ease-in background;
   }
@@ -12,9 +14,19 @@
   .links {
     color: rgb(30, 101, 235);
     margin: 10px;
+    margin-left:5%;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    /* margin-right: 50%; */ 
+    text-align: center;
   }
   #li{
     list-style: none;
     display: inline-block;
+  }
+  .cont{
+    border:10px solid red;
+    margin:500px;
   }
  

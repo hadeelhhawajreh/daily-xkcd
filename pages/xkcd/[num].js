@@ -5,11 +5,12 @@ import Header from '../header'
 export default function xkcdDetails(props){
     return(
         <>
+        <div className='cont'>
         <Header/>
-        <h3>{props.xkcd.safe_title}</h3>
-      <img src={props.xkcd.img}/>
+        <h3 style={{textAlign:'center',marginLeft:100}}>{props.xkcd.safe_title}</h3>
+      <img src={props.xkcd.img} style={{alignContent:'center'}}/>
       <About txt='all copy are reserved @copy Xkcd'/>
-
+      </div>
         </>
 
     )

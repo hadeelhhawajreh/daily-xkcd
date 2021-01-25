@@ -1,11 +1,11 @@
-function About(props){
-    return(
+function About(props) {
+    return (
         <>
-        <small> {props.txt} </small>
+            <small style={{ textAlign: 'right', margin: 180, color: 'blue' }}> {props.txt} </small>
         </>
     )
 
 
 }
 
-export default About ; 
+export default About; 

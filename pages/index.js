@@ -7,13 +7,14 @@ export default function Home(props) {
   return (
     <>
         <Header/>
+    <div className='container' >
     <h1>XKCD</h1>
      
       <h3>{props.xkcd.safe_title}</h3>
       <img src={props.xkcd.img}/>
 
       <Randomizer xxx={props}/>
-
+    </div>
     <About  txt='all copy are reserved @copy Xkcd'/>
     </>
   )
@@ -45,9 +46,9 @@ function Randomizer(props){
     <>
     { ran.map( (num) => {
 
-           return(   <li id='li' key = {num}>
+           return(   <li id='li' key = {num} style={{listStyle:'none' ,display:'inline-block' ,fontSize:20,marginTop:100,padding:10 ,paddingTop:20}}>
               <Link href="/xkcd/[num].js" as={`xkcd/${num}`}>
-                <a>{num} </a>
+                <a>#{num} </a>
               </Link>
               </li>
               )
